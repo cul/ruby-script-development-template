@@ -26,4 +26,11 @@ This project is meant to be downloaded as a zip file rather than cloned, since y
 
 # Development notes
 
-You can add new classes and modules in the `lib` directory and they'll be auto-loaded and available for use in your `main.js` script thanks to Zeitwerk.
+You can add new classes and modules in the `lib` directory and they'll be auto-loaded and available for use in your `main.js` script thanks to Zeitwerk.  In order for this to work, you'll need to name files according to Zeitwerk rules (https://github.com/fxn/zeitwerk).  Here's a quick summary
+
+```
+lib/animal.rb                        -> Animal
+lib/animals/dog.rb                   -> Animals::Dog
+lib/animals/dogs/beagle.rb           -> Animals::Dogs::Beagle
+lib/animals/dogs/golden_retriever.rb -> Animals::Dogs::GoldenRetriever
+```
