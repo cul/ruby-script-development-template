@@ -7,6 +7,7 @@ This is a quick setup template for ruby scripts.  It includes:
 - A Gemfile for managing dependencies.
 - Zeitwerk for auto-loading classes and modules in the `lib` directory.
 - RSpec for testing.
+- Automatic generation of a code coverage report when RSpec runs (via simplecov gem).
 - Some example classes and tests (which you can delete in your local copy).
 
 This project is meant to be downloaded as a zip file rather than cloned, since you'll most likely be using it as the basis for a new project (as opposed to wanting to push commits to the template code repository).
