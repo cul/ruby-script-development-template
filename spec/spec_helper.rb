@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Require all gems in Gemfile
 require 'bundler'
 Bundler.require(:default)
